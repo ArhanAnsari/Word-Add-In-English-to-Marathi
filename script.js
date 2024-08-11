@@ -25,8 +25,8 @@ async function translateText(text) {
 	},
 	body: JSON.stringify({
 	    q: text,
-	    source: 'en',
-	    target: 'mr',
+	    source: 'en', // English
+	    target: 'mr', // Marathi
 	    format: 'text'
 	})
     });
